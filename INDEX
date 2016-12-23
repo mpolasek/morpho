@@ -1,0 +1,310 @@
+CLUST                   Hierarchical clustering
+Coe                     Coe "super" class
+Coo                     Coo "super" class
+KMEANS                  KMEANS on PCA objects
+LDA                     Linear Discriminant Analysis on Coe objects
+Ldk                     Builds an Ldk object
+MANOVA                  Multivariate analysis of (co)variance on Coe
+                        objects
+MANOVA_PW               Pairwise Multivariate analyses of variance
+Momocs                  Momocs
+Momocs_help             Browse Momocs online doc
+Momocs_lastversion      Install and load the last version of Momocs
+Momocs_version          Get Momocs version
+Ntable                  Plots confusion matrix of sample sizes within
+                        $fac
+Opn                     Builds an Opn object
+OpnCoe                  Builds an OpnCoe object
+Out                     Builds an Out object
+OutCoe                  Builds an OutCoe object
+PCA                     Principal component analysis on Coe objects
+PCcontrib               Shape variation along PC axes
+Ptolemy                 Ptolemaic ellipses and illustration of efourier
+TraCoe                  Traditional morphometrics class
+a2l                     Converts an array of coordinates to a list of
+                        matrices
+a2m                     Converts an array of coordinates to a matrix
+add_ldk                 Adds new landmarks on Out and Opn objects
+arrange                 Arranges (ala dplyr) on Momocs objects
+as.Out                  Convert an OutCoe object into an Out object
+as_df                   Converts Momocs objects to data.frames
+at_least                Retains group with at least a certain number of
+                        individuals
+bezier                  Calculates Bezier coefficients from a shape
+bezier_i                Calculates a shape from Bezier coefficients
+bind_db                 Binds with a database
+bot                     Data: Outline coordinates of beer and whisky
+                        bottles.
+boxplot.OutCoe          Boxplot of morphometric coefficients
+boxplot.PCA             Boxplot on PCA objects
+breed                   Jitters Coe (and others) objects
+calibrate_deviations    Quantitative calibration, through deviations,
+                        for Out and Opn objects
+calibrate_harmonicpower
+                        Quantitative calibration, through harmonic
+                        power, for Out and Opn objects
+calibrate_r2            Quantitative r2 calibration for Opn objects
+calibrate_reconstructions
+                        Calibrate using reconstructed shapes
+chaff                   Data: Landmark and semilandmark coordinates on
+                        cereal glumes
+charring                Data: Outline coordinates from an experimental
+                        charring on cereal grains
+chc2Out                 Converts chain-coded coordinates to Out object
+chc2pix                 Converts chain-coded coordinates to (x; y)
+                        coordinates
+chop                    Chops (rough slicing) Momocs objects
+classify                Classify using LDA
+coeff_sel               Helps to select a given number of harmonics
+                        from a numerical vector.
+coeff_split             Converts a numerical description of harmonic
+                        coefficients to a named list.
+col_summer              Some color palettes
+col_transp              Transparency helpers and palettes
+combine                 Combines Momocs objects
+conf_ell                Confidence ellipses
+coo_align               Aligns coordinates
+coo_aligncalliper       Aligns shapes along their 'calliper length'
+coo_alignminradius      Aligns shapes using their shortest radius
+coo_alignxax            Aligns shapes along the x-axis
+coo_area                Calculates the area of a shape
+coo_arrows              Plots (lollipop) differences between two
+                        configurations
+coo_baseline            Register new baselines
+coo_bookstein           Register Bookstein's coordinates
+coo_calliper            Calculates the calliper length
+coo_centdist            Returns the distance between everypoints and
+                        the centroid
+coo_center              Centers coordinates
+coo_centpos             Calculate centroid coordinates
+coo_centsize            Calculates centroid size
+coo_check               Checks shapes
+coo_chull               Calculates the convex hull of a shape
+coo_circularity         Calculates the circularity of a shape
+coo_circularityharalick
+                        Calculates the Haralick's circularity of a
+                        shape
+coo_circularitynorm     Calculates the 'normalized' circularity of a
+                        shape
+coo_close               Closes/uncloses shapes
+coo_convexity           Calculates the convexity of a shape
+coo_down                coo_down ---- Retains coordinates with negative
+                        y-coordinates
+coo_draw                Adds a shape to the current plot
+coo_dxy                 Calculate abscissa and ordinate on a shape
+coo_eccentricityboundingbox
+                        Calculates the eccentricity (bounding box) of a
+                        shape
+coo_eccentricityeigen   Calculates the eccentricity (using eigenvalues)
+                        of a shape
+coo_elongation          Calculates the elongation of a shape
+coo_extract             Extract coordinates from a shape
+coo_flipx               Flips shapes
+coo_force2close         Forces shapes to close
+coo_interpolate         Interpolates coordinates
+coo_jitter              Jitters shapes
+coo_ldk                 Defines landmarks interactively
+coo_left                Retains coordinates with negative x-coordinates
+coo_length              Calculates the length of a shape
+coo_listpanel           Plots sets of shapes.
+coo_lolli               Plots (lollipop) differences between two
+                        configurations
+coo_lw                  Calculates length and width of a shape
+coo_nb                  Counts coordinates
+coo_oscillo             Momocs' 'oscilloscope' for Fourier-based
+                        approaches
+coo_perim               Calculates the perimeter
+coo_perimcum            Calculates the cumulative chordal distance
+                        along a shape.
+coo_perimpts            Calculates the chordal distance along a shape.
+coo_plot                Plots a single shape
+coo_rectangularity      Calculates the rectangularity of a shape
+coo_rectilinearity      Calculates the rectilinearity of a shape
+coo_rev                 Reverses coordinates
+coo_right               Retains coordinates with positive x-coordinates
+coo_rotate              Rotates coordinates
+coo_rotatecenter        Rotates shapes with a custom center
+coo_ruban               Plots differences as (colored) segments aka a
+                        ruban
+coo_sample              Sample coordinates (among points)
+coo_samplerr            Samples coordinates (regular radius)
+coo_scale               Scales coordinates
+coo_scalex              Shrinks coordinates in one direction
+coo_shearx              Shears shapes
+coo_slice               Slices shapes between successive coordinates
+coo_slide               Slides coordinates
+coo_slidedirection      Slides coordinates in a particular direction
+coo_slidegap            Slides coordinates using the widest gap
+coo_smooth              Smoothes coordinates
+coo_smoothcurve         Smoothes coordinates on curves
+coo_solidity            Calculates the solidity of a shape
+coo_tangle              Calculates the tangent angle along the
+                        perimeter of a shape
+coo_template            'Templates' shapes
+coo_theta3              Calculate the angle formed by three (x; y)
+                        coordinates
+coo_thetapts            Calculates the angle of every edge of a shape
+coo_trans               Translates coordinates
+coo_trim                Trims both ends coordinates from shape
+coo_trimbottom          Trims bottom coordinates from shape
+coo_trimtop             Trims top coordinates from shape
+coo_up                  Retains coordinates with positive y-coordinates
+coo_width               Calculates the width of a shape
+d                       A wrapper to calculates euclidean distances
+                        between two points
+def_ldk                 Defines new landmarks on Out and Opn objects
+def_links               Defines links between landmarks
+def_slidings            Defines sliding landmarks matrix
+dfourier                Discrete cosinus transform
+dfourier_i              Investe discrete cosinus transform
+dfourier_shape          Calculates and draws 'dfourier' shapes
+dissolve                Dissolves Coe objects
+ed                      Calculates euclidean distance between two
+                        points.
+edi                     Calculates euclidean intermediate between two
+                        points.
+edm                     Calculates euclidean distance every pairs of
+                        points in two matrices.
+edm_nearest             Calculates the shortest euclidean distance
+                        found for every point of one matrix among those
+                        of a second.
+efourier                Elliptical Fourier transform
+efourier_i              Inverse elliptical Fourier transform
+efourier_norm           Normalizes harmonic coefficients.
+efourier_shape          Calculates and draw 'efourier' shapes.
+export                  Exports Coe objects and shapes
+fProcrustes             Full Procrustes alignment between two shapes
+fgProcrustes            Full Generalized Procrustes alignment between
+                        shapes
+fgsProcrustes           Full Generalized Procrustes alignment between
+                        shapes with sliding landmarks
+filter                  Filters (ala dplyr) on Momocs objects
+flower                  Data: Measurement of iris flowers
+get_chull_area          Calculates convex hull area/volume of PCA
+                        scores
+get_ldk                 Retrieves landmarks coordinates
+get_pairs               Get paired individual on a Coe, PCA or LDA
+                        objects
+get_slidings            Extracts sliding landmarks coordinates
+harm_pow                Calculates harmonic power given a list from
+                        e/t/rfourier
+hcontrib                Harmonic contribution to shape
+hearts                  Data: Outline coordinates of hand-drawn hearts
+hist.OutCoe             Histogram of morphometric coefficients
+img_plot                Plots a .jpg image
+import_Conte            Extracts outlines coordinates from an image
+                        silhouette
+import_StereoMorph_curve1
+                        Imports files creates by StereoMorph into
+                        Momocs
+import_jpg              Extracts outline coordinates from multiple .jpg
+                        files
+import_jpg1             Extracts outline coordinates from a single .jpg
+                        file
+import_tps              Imports a tps file
+import_txt              Imports coordinates from a .txt file
+is                      Various class/component testers
+is_closed               Tests if shapes are closed
+l2a                     Converts a list of coordinates to an array of
+                        coordinates
+l2m                     Converts a list of coordinates to a matrix of
+                        coordinates.
+ldk_check               Checks 'ldk' shapes
+ldk_chull               Draws convex hulls around landmark positions
+ldk_confell             Draws confidence ellipses for landmark
+                        positions
+ldk_contour             Draws kernel density contours around landmark
+ldk_labels              Add landmarks labels
+ldk_links               Draws links between landmarks
+lf_structure            Extracts structure from filenames
+links_all               Creates links (all pariwise combinations)
+                        between landmarks
+links_delaunay          Creates links (Delaunay triangulation) between
+                        landmarks
+m2a                     Converts a matrix of coordinates to an array of
+                        coordinates
+m2d                     Converts a matrix of coordinates to a
+                        data.frame
+m2l                     Converts a matrix of coordinates to a list of
+                        coordinates.
+m2ll                    Converts a matrix of coordinates into a list of
+                        matrices
+measure                 Measures shape descriptors
+molars                  Data: Outline coordinates of 360 molars
+mosquito                Data: Outline coordinates of mosquito wings.
+mshapes                 Mean shape calculation for Coo, Coe, etc.
+mutate                  Mutates (ala dplyr) on Momocs objects
+nef2Coe                 Imports .nef to Coe objects
+npoly                   Calculate natural polynomial fits on open
+                        outlines
+ntsrow2Coo              Imports .nts to Coo objects
+oak                     Data: Configuration of landmarks of oak leaves
+olea                    Data: Outline coordinates of olive seeds open
+                        outlines.
+opoly                   Calculate orthogonal polynomial fits on open
+                        outlines
+opoly_i                 Calculates shape from a polynomial model
+pProcrustes             Partial Procrustes alignment between two shapes
+panel                   Family picture of shapes
+panel2                  Family picture of shapes (ggplot2)
+perm                    Permutes and breed Coe (and others) objects
+pix2chc                 Converts (x; y) coordinates to chaincoded
+                        coordinates
+plot.Coo                Graphical inspection of shapes
+plot.LDA                Plots Linear Discriminant Analysis
+plot.PCA                Plots Principal Component Analysis
+plot2                   Plots Principal Component Analysis ala ggplot2
+plot3                   #' @describeIn plot.PCA #' @export mplot <-
+                        plot.PCA Plots a combination of the three first
+                        PCs
+plot_CV                 Plots a cross-validation table as an heatmap
+plot_CV2                Plots a cross-correlation table
+plot_devsegments        Draws colored segments from a matrix of
+                        coordinates.
+pos.shapes              Calculates nice positions on a plane for
+                        drawing shapes
+reLDA                   "Redo" a LDA on new data
+rePCA                   "Redo" a PCA on a new Coe
+rename                  Renames (ala dplyr) on Momocs objects
+rescale                 Rescale coordinates from pixels to real length
+                        units
+rfourier                Radii variation Fourier transform
+rfourier_i              Inverse radii variation Fourier transform
+rfourier_shape          Calculates and draw 'rfourier' shapes.
+rm_asym                 Removes asymmetric and symmetric variation on
+                        OutCoe objects
+rm_harm                 Removes harmonics from Coe objects
+rm_uncomplete           Removes shapes with incomplete slices
+rw_rule                 Renames levels on Momocs objects
+sample_frac             Samples a fraction of shapes in Momocs objects
+sample_n                Samples n shapes on Momocs objects
+scree                   Methods for PCA eigen values
+select                  Selects (ala dplyr) on Momocs objects
+shapes                  Data: Outline coordinates of various shapes
+slice                   Slices (ala dplyr) on Momocs objects
+slidings_scheme         Extracts partitions of sliding coordinates
+stack.Coo               Family picture of shapes
+stack2                  Family picture of shapes (ggplot2)
+subset.Coo              Subsets on Momocs objects
+symmetry                Calcuates symmetry indices on OutCoe objects
+table                   Cross-tabulates objects
+tfourier                Tangent angle Fourier transform
+tfourier_i              Inverse tangent angle Fourier transform
+tfourier_shape          Calculates and draws 'tfourier' shapes.
+tie_jpg_txt             Binds .jpg outlines from .txt landmarks taken
+                        on them
+tps2coo                 Reads a single tps-like shape as lines
+tps2d                   Thin Plate Splines for 2D data
+tps_arr                 Deformation 'vector field' using Thin Plate
+                        Splines
+tps_grid                Deformation grids using Thin Plate Splines
+tps_iso                 Deformation isolines using Thin Plate Splines.
+tps_raw                 Vanilla Thin Plate Splines
+transmute               Transmutes (ala dplyr) on Momocs objects
+trilo                   Data: Outline coordinates of cephalic outlines
+                        of trilobite
+truss                   Truss measurement
+validate                Validates Coo objects
+vecs_param              Some vector utilities.
+which_out               Remove outliers on Coe
+wings                   Data: Landmarks coordinates of mosquito wings
